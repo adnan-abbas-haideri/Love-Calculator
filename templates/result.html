@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Love Calculator Result</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Love Result</h1>
+        <p>{{ name1 }} ❤️ {{ name2 }}</p>
+        <h2>Your love percentage is: {{ love_percentage }}%</h2>
+        <a href="/">Try Again</a>
+    </div>
+</body>
+</html>
+
